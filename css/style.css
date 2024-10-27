@@ -43,3 +43,23 @@ form{
 #delete{
     color: rgb(174, 36, 11);
 }
+
+/* media query */
+@media (max-width: 920px) {
+    .parent{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {
+    .parent{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width: 576px) {
+    .parent{
+        width: 80%;
+        margin: auto;
+    }
+}
